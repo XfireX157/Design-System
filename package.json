@@ -35,9 +35,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "alurabooks-ds",
+  "name": "DesignSystemJX",
   "author": "yarn start",
-  "module": "dist/alurabooks-ds.esm.js",
+  "module": "dist/DesignSystemJX.esm.js",
   "size-limit": [
     {
       "path": "dist/alurabooks-ds.cjs.production.min.js",
