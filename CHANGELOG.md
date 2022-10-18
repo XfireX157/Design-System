@@ -1,3 +1,16 @@
+# v0.2.2 (Tue Oct 18 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/XfireX157/Design-System ([@XfireX157](https://github.com/XfireX157))
+- saved Buttons Add ([@XfireX157](https://github.com/XfireX157))
+
+#### Authors: 1
+
+- Gustavo P. Martins ([@XfireX157](https://github.com/XfireX157))
+
+---
+
 # v0.2.1 (Tue Oct 18 2022)
 
 #### ⚠️ Pushed to `main`
