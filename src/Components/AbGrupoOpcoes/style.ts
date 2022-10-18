@@ -14,6 +14,7 @@ export const Box = styled.section<IOpcoes>`
     align-items: center;
     margin: 10px;
     font-family: sans-serif;
+    cursor: pointer;
 
     header{
         color: ${(props) => props.active ? '#FFFFFF' : '#EB9B00'};

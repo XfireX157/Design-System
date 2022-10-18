@@ -1,49 +1,32 @@
-import React from "react"
+import React, { useState } from "react"
 import * as C from './style'
-import { IOpcoes } from "./Types/IOpcoes"
+import { IOpcoes, IOpcoesProps } from "./Types/IOpcoes"
 
-export const AbGrupoOpcoes = () => {
+export const AbGrupoOpcoes = ({opcoes} : IOpcoesProps) => {
+    
+    const [select, setSelect] = useState<IOpcoes | null>(null)
+    
+    const SelectFilter = (index: IOpcoes): void => {
+        setSelect(index)
+    }
+
     return (
         <>
-        <C.Box active={false}>
-            <header>
-                E-book
-            </header>
-            <div>
-                <strong>
-                    R$ 00,00
-                </strong>
-            </div>
-            <footer>
-                .pdf, .epub, .mob
-            </footer>
-        </C.Box>
-        <C.Box active={true}>
-            <header>
-                E-book
-            </header>
-            <div>
-                <strong>
-                    R$ 00,00
-                </strong>
-            </div>
-            <footer>
-                .pdf, .epub, .mob
-            </footer>
-        </C.Box>
-        <C.Box active={false}>
-            <header>
-                E-book
-            </header>
-            <div>
-                <strong>
-                    R$ 00,00
-                </strong>
-            </div>
-            <footer>
-                .pdf, .epub, .mob
-            </footer>
-        </C.Box>
+            {opcoes?.map((opcao: IOpcoes) => 
+                <C.Box onClick={() => SelectFilter(opcao)} key={opcao.id} active={select?.id == opcao.id}>
+                    <header>
+                        {opcao.title}
+                    </header>
+                    <div>
+                        <strong>
+                            R${opcao.price}
+                        </strong>
+                    </div>
+                    <footer>
+                        {opcao.footer}
+                    </footer>
+                </C.Box>
+            )}
         </>
     )
 }

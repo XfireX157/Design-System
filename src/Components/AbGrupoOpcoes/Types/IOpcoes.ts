@@ -1,3 +1,11 @@
 export interface IOpcoes {
-    active: boolean
+    active?: boolean
+    id?: number,
+    title?: string,
+    price?: string,
+    footer?: string
+}
+
+export interface IOpcoesProps {
+    opcoes?: IOpcoes[]
 }
