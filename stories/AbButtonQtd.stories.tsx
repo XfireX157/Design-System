@@ -1,6 +1,6 @@
 import React from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import {AbButtonQtd} from '../src/Components/AbButtonQtd'
+import { AbButtonQtd } from '../src/Components/AbButtonQtd'
 import { IButtonQtds } from "../src/Components/AbButtonQtd/Types/IButtonsQtd";
 
 export default {

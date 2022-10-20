@@ -14,3 +14,7 @@ export const Thing: FC<Props> = ({ children }) => {
 export * from './Components/AbBotao'
 
 export * from './Components/AbGrupoOpcoes'
+
+export * from './Components/AbButtonQtd'
+
+export * from './Components/AbBurguer'
