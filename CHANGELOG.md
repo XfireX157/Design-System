@@ -1,3 +1,15 @@
+# v0.2.3 (Thu Oct 20 2022)
+
+#### ⚠️ Pushed to `main`
+
+- burguer button adicionado ([@XfireX157](https://github.com/XfireX157))
+
+#### Authors: 1
+
+- Gustavo P. Martins ([@XfireX157](https://github.com/XfireX157))
+
+---
+
 # v0.2.2 (Tue Oct 18 2022)
 
 #### ⚠️ Pushed to `main`
